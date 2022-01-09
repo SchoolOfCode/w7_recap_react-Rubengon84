@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Comment.css";
 
 function Comment({comment}) {
 
@@ -17,11 +17,11 @@ function Comment({comment}) {
 
   return (
     <li>
-      <div>
+      <div className="commentHeader">
         <span className="initials">{initialsName}</span>
         <span className="commentName">{comment.author}</span>
       </div>
-      <p>{comment.text}</p>
+      <p className="commentText">{comment.text}</p>
     </li>
   )
 }

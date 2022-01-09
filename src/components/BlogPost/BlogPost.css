@@ -1,0 +1,28 @@
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img{
+  width: 50%;
+}
+
+.authorDate {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  padding: 0.5rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  width: 50%;
+  padding: 0.5rem;
+}
