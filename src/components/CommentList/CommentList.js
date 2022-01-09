@@ -2,11 +2,10 @@ import React from "react";
 import Comment from "../Comment/Comment.js"
 
 
-function CommentList() {
+function CommentList({commentsList}) {
 
   return (
-    <ul>
-      <Comment />
+    <ul>{commentsList.map(element => <Comment comment={element}/> )}
     </ul>
   )
 }
