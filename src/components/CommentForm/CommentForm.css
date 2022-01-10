@@ -1,0 +1,18 @@
+
+form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
